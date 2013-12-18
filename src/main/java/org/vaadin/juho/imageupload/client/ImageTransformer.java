@@ -75,7 +75,7 @@ public class ImageTransformer extends ImageManipulator {
     @Override
     public void onImageLoaded(ImageLoadedEvent event) {
         final RootPanel rootPanel = RootPanel.get();
-        final Image image = new Image(event.getImageData().getDataURL());
+        final Image image = new Image();
         Style style = image.getElement().getStyle();
         style.setPosition(Position.ABSOLUTE);
         style.setVisibility(Visibility.HIDDEN);
