@@ -31,7 +31,7 @@ public class ImageTransformer extends ImageManipulator {
 
     /**
      * @see #setMaxWidth(int)
-     * @see #setMaxHeigth(int)
+     * @see #setMaxHeight(int)
      * @see #setOrientation(int)
      */
     public ImageTransformer(int maxWidth, int maxHeight, int orientation) {
@@ -47,7 +47,7 @@ public class ImageTransformer extends ImageManipulator {
     }
 
     /** Sets the height of the transformed image. */
-    public void setHeigth(int height) {
+    public void setHeight(int height) {
         this.height = height;
     }
 
@@ -57,7 +57,7 @@ public class ImageTransformer extends ImageManipulator {
     }
 
     /** Sets the maximum height of the transformed image. */
-    public void setMaxHeigth(int height) {
+    public void setMaxHeight(int height) {
         maxHeight = height;
     }
 
